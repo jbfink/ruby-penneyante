@@ -1,7 +1,16 @@
 #
 def myguess(yourguess)
 	# if yourguess is HTT, myguess wants to be HHT -- swap middle guess, put that swap at front, push out last guess.
+	if yourguess[1] == "T"
+		then mymiddle = "H"
+	else
+		mymiddle = "T"
+	end
+	myguess = (yourguess.delete_at(1)) ; (yourguess.insert(0,mymiddle))
+
+	 
 end
+
 
 	
 def cointoss
@@ -20,4 +29,4 @@ until counter == 3
 end
 print array
 
-
+print myguess(array)
