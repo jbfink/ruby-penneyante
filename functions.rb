@@ -13,11 +13,12 @@ def cointoss
 end
 
 def win(array,mine,yourgo)
-if array == mine then
+if array[0..2] == mine then
 	print "I WON"
-elsif array == yourgo
+elsif array[0..2] == yourgo
 	print "YOU WON"
 else
+	#this shouldn't happen
 	print "NOBODY WON"
 end
 end

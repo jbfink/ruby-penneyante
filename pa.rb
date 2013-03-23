@@ -16,10 +16,8 @@ print "If you said #{yourgo}, that means my guess is #{mine}."
 	
 
 array = []
-counter = 0
-until counter == 3
-	array << cointoss
-	counter +=1
+until array[0..2] == mine || array[0..2] == yourgo
+	array.insert(0,cointoss)
 end
-print array
+print array[0..2]
 win(array,mine,yourgo)
