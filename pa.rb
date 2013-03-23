@@ -1,4 +1,9 @@
 #
+def myguess(yourguess)
+	# if yourguess is HTT, myguess wants to be HHT -- swap middle guess, put that swap at front, push out last guess.
+end
+
+	
 def cointoss
       toss=[0,1].sample
 	if toss == 1
@@ -13,6 +18,6 @@ until counter == 3
 	array << cointoss
 	counter +=1
 end
-puts array
+print array
 
 
