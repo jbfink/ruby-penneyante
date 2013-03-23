@@ -1,7 +1,9 @@
 require "./functions.rb"
-print "What's your guess, sucka?"
+print "What's your guess, sucka?\n"
+
 # note that yourguess keeps getting destructively changed, which is why I am
 # doing the whole .clone and mine thing.
+print ">> "
 input = gets.chomp.upcase
 
 yourguess = input.split("")
