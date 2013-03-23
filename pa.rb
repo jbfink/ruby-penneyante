@@ -25,6 +25,7 @@ print "If you said #{yourgo}, that means my guess is #{mine}."
 def cointoss
 	return ["H","T"].sample
 end
+
 array = []
 counter = 0
 until counter == 3
