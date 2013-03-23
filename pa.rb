@@ -23,12 +23,7 @@ print "If you said #{yourgo}, that means my guess is #{mine}."
 
 	
 def cointoss
-      toss=[0,1].sample
-	if toss == 1
-		return "H"
-	else
-		return "T"
-	end
+	return ["H","T"].sample
 end
 array = []
 counter = 0
