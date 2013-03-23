@@ -1,4 +1,11 @@
-#
+print "What's your guess, sucka?"
+# note that yourguess keeps getting destructively changed, which is why I am
+# doing the whole .clone and mine thing.
+input = gets.chomp.upcase
+
+yourguess = input.split("")
+yourgo = yourguess.clone
+
 def myguess(yourguess)
 	# if yourguess is HTT, myguess wants to be HHT -- swap middle guess, put that swap at front, push out last guess.
 	if yourguess[1] == "T"
@@ -11,6 +18,8 @@ def myguess(yourguess)
 	 
 end
 
+mine = myguess(yourguess)
+print "If you said #{yourgo}, that means my guess is #{mine}."
 
 	
 def cointoss
