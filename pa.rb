@@ -7,8 +7,12 @@ def cointoss
 		return "T"
 	end
 end
-
-
-puts cointoss
+array = []
+counter = 0
+until counter == 3
+	array << cointoss
+	counter +=1
+end
+puts array
 
 
