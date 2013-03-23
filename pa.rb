@@ -34,3 +34,13 @@ until counter == 3
 end
 print array
 
+def win(array,mine,yourgo)
+if array == mine then
+	print "I WON"
+elsif array == yourgo
+	print "YOU WON"
+else
+	print "NOBODY WON"
+end
+end
+win(array,mine,yourgo)
