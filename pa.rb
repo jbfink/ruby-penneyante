@@ -38,4 +38,3 @@ until counter == 3
 end
 print array
 
-print myguess(array)
