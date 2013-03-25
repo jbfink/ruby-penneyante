@@ -9,5 +9,11 @@ This is a simulator of that, with the user playing the part of the mark and the 
 
 Note that this depends on ruby 1.9.2 (for use of the sample method) but if you have ruby 1.8.7 and the backport gem it will work as well at some point. Right now you run it with ruby pa.rb but that may/will be prettified at some point.
 
-
 * there appears to be a Youtube video explaining things [here](http://www.youtube.com/watch?v=OcYnlSenF04)
+
+TODO:
+
+Classifying/cleaning up the functions.rb file
+Input sanity check (number of coins, letters)
+Prettified output
+Sinatra-ize/Rack for heroku deployment
