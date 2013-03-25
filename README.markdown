@@ -14,6 +14,9 @@ Note that this depends on ruby 1.9.2 (for use of the sample method) but if you h
 TODO:
 
 Classifying/cleaning up the functions.rb file
+
 Input sanity check (number of coins, letters)
+
 Prettified output
+
 Sinatra-ize/Rack for heroku deployment
